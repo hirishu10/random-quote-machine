@@ -115,6 +115,18 @@ function App() {
         backgroundColor: color[colorIndex],
       }}
     >
+      {/* My Logo */}
+      <div className="logo-container">
+        <img
+          className="logo-image"
+          src="https://raw.githubusercontent.com/hirishu10/my-assets/main/contact_logo.png"
+          alt="my_logo"
+          width={"80px"}
+          height={"80px"}
+        />
+      </div>
+      {/* My Logo */}
+      {/*  */}
       {/* Qoute-Box Start -- */}
       <div id="quote-box">
         {/*  */}
@@ -165,6 +177,8 @@ function App() {
                   marginLeft: 20,
                   transition: "1s",
                 }}
+                target={"_blank"}
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faTwitter} size={"lg"} color={"white"} />
               </a>

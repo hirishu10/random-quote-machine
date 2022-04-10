@@ -3,7 +3,7 @@
 
 $transition: 1s;
 
-*body {
+* body {
   margin: 0;
   padding: 0;
   background-color: #333;
@@ -19,109 +19,125 @@ $transition: 1s;
   justify-content: center;
   align-items: center;
   transition: $transition;
-}
-#quote-box {
-  width: 550px;
-  background-color: whitesmoke;
-  border-radius: 2px;
-}
 
-#text-container {
-  width: 100%;
-  padding: 30px 0 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  // Logo Container
 
-#text {
-  width: 500px;
-  min-height: 100px;
-  max-height: 380px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 1.2;
-  font-weight: bold;
-  font-family: Raleway, sans-serif;
-  transition: $transition;
-}
+  .logo-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
 
-#buttons-container {
-  width: 100%;
-  height: 130px;
-}
+    .logo-image {
+      border-radius: 40px;
+    }
+  }
 
-#author {
-  width: 90%;
-  height: 30%;
-  font-family: Poppins, sans-serif;
-  font-size: 15px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  transition: $transition;
-}
-#icon-button {
-  width: 100%;
-  height: 70%;
-  display: flex;
-}
-#icon-container {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.icon-design {
-  width: 40px;
-  height: 40px;
-  margin-right: 5px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon-design:hover {
-  opacity: 0.9;
-}
+  // Quote-Box
+  #quote-box {
+    width: 550px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin-top: 50px;
 
-#newQuote-container {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    #text-container {
+      width: 100%;
+      padding: 30px 0 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-#new-quote {
-  width: 100px;
-  height: 40px;
-  font-size: 12px;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#new-quote:hover {
-  opacity: 0.9;
-}
-//Footer
-#name-design {
-  width: 450px;
-  text-align: center;
-  display: block;
-  margin: 15px auto 30px auto;
-  font-size: 0.8em;
-  color: #fff;
-  a {
-    font-weight: 500;
-    text-decoration: none;
+      #text {
+        width: 500px;
+        min-height: 100px;
+        max-height: 380px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: bold;
+        font-family: Raleway, sans-serif;
+        transition: $transition;
+      }
+    }
+
+    #buttons-container {
+      width: 100%;
+      height: 130px;
+
+      #author {
+        width: 90%;
+        height: 30%;
+        font-family: Poppins, sans-serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transition: $transition;
+      }
+      #icon-button {
+        width: 100%;
+        height: 70%;
+        display: flex;
+      }
+      #icon-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .icon-design {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .icon-design:hover {
+        opacity: 0.9;
+      }
+
+      #newQuote-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #new-quote {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-family: Poppins, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #new-quote:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  //Footer
+  #name-design {
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 0.8em;
     color: #fff;
+    a {
+      font-weight: 500;
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
