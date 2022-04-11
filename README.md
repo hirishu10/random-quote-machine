@@ -2,4 +2,4 @@
 
 https://codepen.io/hirishu10/pen/YzYLgXK
 
-Website : https://getrandomquote.herokuapp.com/
+Website : https://hirishu10.github.io/random-quote-machine/
