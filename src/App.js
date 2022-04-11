@@ -140,7 +140,7 @@ function App() {
               {
                 <FontAwesomeIcon
                   icon={faQuoteLeft}
-                  size={35}
+                  size={"lg"}
                   style={{
                     color: animate === null ? color[colorIndex] : "white",
                     marginRight: 5,
